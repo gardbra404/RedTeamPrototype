@@ -2,6 +2,8 @@
 <html>
 <head>
 <meta charset='utf-8' />
+<link rel="stylesheet" href="../css/login.css" />
+<link rel="stylesheet" href ="../css/common.css" />
 <link href='../js/core/main.css' rel='stylesheet' />
 <link href='../js/daygrid/main.css' rel='stylesheet' />
 <link href='../js/list/main.css' rel='stylesheet' />
@@ -10,6 +12,7 @@
 <script src='../js/daygrid/main.js'></script>
 <script src='../js/list/main.js'></script>
 <script src='../js/google-calendar/main.js'></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script>
 
   document.addEventListener('DOMContentLoaded', function() {
@@ -137,8 +140,11 @@
 </style>
 </head>
 <body>
-
-  <div id='loading'>loading...</div>
+  <div id="top">
+    <span id = "title"><strong>One Connect</strong></span>
+    <span><button class = 'fa fa-gear'></button></span>
+    <span id='info'>Bradley Gardner<br/>Kettering University</span>
+  </div>
 
   <div id='calendar'></div>
 

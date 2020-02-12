@@ -1,55 +1,8 @@
 <html>
     <head>
-        <style>
-            .column {
-                border-radius: 25px;
-                float: left;
-                width: 30%;
-                margin: 0 30px 0 30px;
-                border: 1px solid black;
-                height: 100vh;
-                background-color: darkgrey;
-            }
-            li {
-                margin: 0 0 12px 0;
-            }
-            .split {
-                height:50vh;
-            }
-            .encompass {
-                outline: 1px solid black;
-            }
-            #eventCalendar {
-                display: inline;
-            }
-            #top span{
-                display: inline
-            }
-            #button {
-                float: right;
-            }
-            #info {
-                float: right;
-            }
-            #columns {
-                background-color:rgb(41, 88, 117);
-                overflow: auto;
-            }
-            #top {
-                background-color: black;
-                color: white;
-                height:80px;
-            }
-            .fa {
-                color: white !important;
-                background-color: transparent !important;
-                border: none !important;
-                float: right;
-            }
-            body {
-                margin: 0;
-            }
-        </style>
+        
+        <link rel="stylesheet" href="../css/common.css" />
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto|Source+Sans+Pro&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -57,16 +10,17 @@
     </head>
     <body>
         <div id = 'top'>
-            <span><strong>One Connect</strong></span>
+            <span id = "title"><strong>One Connect</strong></span>
             <span><button class = 'fa fa-gear'></button></span>
-            <span id='info'>Bradley Gardner: Kettering University</span>
+            <span id='info'>Bradley Gardner<br/>Kettering University</span>
         </div>
         
-        <div id ='columns'>
+        <div class ='columns'>
 
             <div class = 'column'>
                 <div>
                     <h2>Quick Links</h2>
+                    <hr>
                     <ul>
                         <li><a href="">Grades</a></li>
                         <li><a href="">Notificiations</a></li>
@@ -81,20 +35,22 @@
             <div class = 'column'>
                 <div>
                     <h2>Classes</h2>
+                    <hr>
                     <ul>
-                        <li><a href="">CS-385-202001-10437: CS-385-01: Introduction to Game Design - WINTER MR 8:30-10:05</a></li>
-                        <li><a href="">CS-385-202001-10438: CS-385-02L: Introduction to Game Design - WINTER W 8:00-10:00</a></li>
-                        <li><a href="">CS-471-202001-10173: CS-471-01: Software Engineering - WINTER MR 1:20-2:55</a></li>
-                        <li><a href="">CS-471-202001-10174: CS-471-02L: Software Engineering - WINTER W 1:20-3:25</a></li>
-                        <li><a href="">EP-235-202001-10871: EP-235-01: Computers in Physics - WINTER T 8:00-10:05 MR 10:15-12:20</a></li>
-                        <li><a href="">HUMN-391-202001-11509: HUMN-391-02: Special Topics in Humanities - WINTER TF 10:15-12:20</a></li>
+                        <li><a href="">CS-385 Introduction to Game Design MR 8:30-10:05</a></li>
+                        <li><a href="">CS-385 Introduction to Game Design Lab - W 8:00-10:00</a></li>
+                        <li><a href="">CS-471 Software Engineering - MR 1:20-2:55</a></li>
+                        <li><a href="">CS-471 Software Engineering Lab- W 1:20-3:25</a></li>
+                        <li><a href="">EP-235 Computers in Physics - T 8:00-10:05 MR 10:15-12:20</a></li>
+                        <li><a href="">HUMN-391 Special Topics in Humanities - TF 10:15-12:20</a></li>
                     </ul>
                 </div>
             </div>
             <div class = 'column'>
                 <div id = 'eventCalendar'>
                     <h2>Announcements</h2>
-                    <a href='calendar.html'>View Full Calendar</a>
+                    <hr>
+                    <a id ="cal" href='calendar.html'>View Full Calendar</a>
                 </div>
                 <ul id ='announce'>
                     <li>New assignment due in some class</li>
