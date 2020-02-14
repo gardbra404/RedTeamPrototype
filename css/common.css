@@ -10,6 +10,24 @@
     display: block;
     
 }
+
+.classheader {
+
+    background-color: rgb(207, 207, 207);
+    margin-bottom: 30px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left:20px;
+    border-width: 4px;
+    border-color:  rgb(187, 187, 187);
+    border-style: solid;
+    border-radius: 8px;
+
+}
+
+
 .column h2{
     text-align: center;
 }
@@ -57,6 +75,7 @@ li {
 }
 body {
     margin: 0 !important;
+    background-color:rgb(72, 71,82);
 }
 #title {
     padding-left: 20px;
@@ -65,4 +84,16 @@ body {
 }
 #cal{
     margin-left: 10px;
+}
+
+.primary-button {
+    border-radius: 5px;
+    background-color: #8fa6ce;
+    padding: 10px;
+    border: none;
+    font: inherit;
+    color: white;
+    /* show a hand cursor on hover; some argue that we
+    should keep the default arrow cursor for buttons */
+    cursor: pointer;
 }
