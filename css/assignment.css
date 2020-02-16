@@ -18,27 +18,55 @@
 .box h3 {
     padding-left: 1.2em;
     padding-top: 20px;
-    
 }
 
-
-.subbox{
+.subbox {
     overflow: auto;
     border-radius: 5px;
-    margin: 0 20px 0 20px ;
+    margin: 0 20px 0 20px;
     padding: 1em;
-    background:rgb(235, 235, 235);
+    background: rgb(235, 235, 235);
 }
 
-.submit{
-    float:right;
+.submit {
+    float: right;
     margin: 30px
 }
 
-.file-form{
+.edit {
+    float: right;
+}
+
+.file-form {
+    padding-bottom: 10px
+}
+
+.note-box {
+    margin-top: 20px
+}
+
+.submissions-table {
+    border: 1px;
+}
+
+.assignment-form-item{
     padding-bottom:10px
 }
 
-.note-box{
-    margin-top: 20px
+
+/* Basic table styling */
+tbody tr:nth-child(odd) {
+    background-color: #e6e6e6;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+tbody td {
+    text-align: center;
+}
+
+table {
+    width: 100%
 }
