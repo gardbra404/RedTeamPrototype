@@ -1,0 +1,76 @@
+.threads-table {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Basic table styling */
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(235, 235, 235);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(235, 235, 235);
+}
+
+tbody td {
+    padding: 10px
+}
+
+table {
+    width: 100%
+}
+
+.thread-title {
+    font-size: 25px;
+}
+
+.submit {
+    float: right;
+    margin: 30px
+}
+
+
+.post-box {
+    overflow: auto;
+    margin: 0 20px 0px 20px;
+    padding: 1em;
+}
+
+.post-box div {
+    padding-bottom:5px
+}
+
+.top {
+    border-radius: 10px 10px 0 0;
+}
+
+.bottom {
+    overflow: auto;
+    border-radius: 0 0 10px 10px;
+}
+
+.even {
+    background: rgb(228, 228, 228);
+}
+
+.odd {
+    background: rgb(235, 235, 235);
+}
+
+.editor {
+    overflow: auto;
+    border-radius: 5px;
+    margin: 20px 20px 0 20px;
+    padding: 1em;
+    background: rgb(235, 235, 235);
+}
+
+.editor h4 {
+    margin: 10px 0 20px 0;
+    font-size: 20px;
+}
+
+.post-date {
+    float:right
+}

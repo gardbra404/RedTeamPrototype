@@ -93,3 +93,33 @@ body {
     color: white;
     cursor: pointer;
 }
+
+.box {
+    border-radius: 25px;
+    width: 80vw;
+    margin: 0 30px 30px 30px;
+    padding-bottom: 100px;
+    height: auto;
+    background-color: rgb(207, 207, 207);
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 5px 10px;
+    display: block;
+}
+
+.box h2 {
+    padding-left: .8em;
+    padding-top: 15px;
+}
+
+.box h3 {
+    padding-left: 1.2em;
+    padding-top: 20px;
+}
+
+.subbox {
+    overflow: auto;
+    border-radius: 5px;
+    margin: 0 20px 0 20px;
+    padding: 1em;
+    background: rgb(235, 235, 235);
+}
