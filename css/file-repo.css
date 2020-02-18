@@ -1,0 +1,33 @@
+
+.table{
+	border: 10px solid #73af00;
+	border-bottom-style:solid;
+	border-color: #c0c0c0
+	
+}
+
+th, td{
+	border: 1px solid black;
+	
+}
+
+.table tr:hover td{
+	background-color: solid black !important;
+}
+
+#tableborder{
+	border-color: #c0c0c0
+}
+
+body{
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.toolbarbutton{
+	padding-bottom: 20px;
+}
+
+.toolbar{
+	width: 25vw;
+	padding-bottom: 20px;
+}
