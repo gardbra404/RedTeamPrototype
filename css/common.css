@@ -25,6 +25,10 @@
     border-radius: 8px;
 }
 
+.logo {
+    font-family: 'Varela Round', sans-serif !important;
+}
+
 
 .column h2{
     text-align: center;
