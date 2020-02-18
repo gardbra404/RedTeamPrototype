@@ -24,9 +24,11 @@
 
 
     <div class=classheader>
+        <a href="../landing.html">Home</a>
+        <i class="fa fa-chevron-right header-chevron"></i>
         <a href=""> HUMN-391 Special Topics in Humanities - TF 10:15-12:20</a>
         <i class="fa fa-chevron-right header-chevron"></i>
-        <a href="">My Quizzes & Exams</a>
+        <a href="view_all_exams_student.html">My Quizzes & Exams</a>
         <i class="fa fa-chevron-right header-chevron"></i>
         <a href="">Film History Quiz 1</a>
     </div>
@@ -40,10 +42,12 @@
         <div class='box'>
             <div>
                 <h2>Film History Quiz 1</h2>
+                <div class="exam-info">Due: <b>Feb 20th, at 11:55 PM</b></div>
+                <div class="exam-info">Points Possible: <b>15</b></div>
 
-                <h3>Question 2</h3>
+
+                <h3 class="question-label">Question 1</h3> <span> (1pts)</span>
                 <div class="subbox">
-
                     <div class="true-false-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend
                         commodo sodales?</div>
                     <div class="true-false-buttons">
@@ -54,7 +58,7 @@
                     </div>
                 </div>
 
-                <h3>Question 2</h3>
+                <h3 class="question-label">Question 2</h3> <span> (1pts)</span>
                 <div class="subbox">
                     <div class="true-false-text">Praesent luctus luctus lorem, in commodo tellus consectetur ac. Fusce
                         non
@@ -69,7 +73,7 @@
                     </div>
                 </div>
 
-                <h3>Question 3</h3>
+                <h3 class="question-label">Question 3</h3> <span> (1pts)</span>
                 <div class="subbox">
                     <div class="true-false-text">Aenean mattis imperdiet lorem id convallis. Nullam suscipit cursus ante
                         eu
@@ -84,7 +88,7 @@
                 </div>
 
 
-                <h3>Question 4</h3>
+                <h3 class="question-label">Question 4</h3> <span> (2pts)</span>
                 <div class="subbox">
                     <div class="multiple-choice-text">Donec eros massa, ornare at nibh vitae, pulvinar congue magna.
                         Proin
@@ -101,7 +105,7 @@
                     </div>
                 </div>
 
-                <h3>Question 5</h3>
+                <h3 class="question-label">Question 5</h3> <span> (2pts)</span>
                 <div class="subbox">
                     <div class="multiple-choice-text">Maecenas et suscipit neque, nec cursus magna. Nullam facilisis leo
                         at turpis gravida, id malesuada leo placerat. Praesent sit amet porta nibh, sed condimentum
@@ -116,9 +120,14 @@
                     </div>
                 </div>
 
-                <h3>Question 6</h3>
+                <h3 class="question-label">Question 6</h3> <span> (4pts)</span>
                 <div class="subbox">
-                    <div class="multiple-choice-text">Sed iaculis nisi hendrerit, viverra ante et, congue justo. Morbi in odio purus. Mauris sit amet volutpat nisi. Suspendisse sit amet aliquam sapien, non consectetur nulla. Nam sem nibh, imperdiet non feugiat malesuada, pellentesque et nulla. In interdum tincidunt tortor quis aliquet. Aenean eu felis eu nulla pharetra ultrices. Vestibulum sodales, turpis ut viverra congue, massa felis rutrum urna, vel porta mi sem quis felis. Vivamus ac magna nunc. Pellentesque nec quam ac augue elementum scelerisque ac placerat lacus.  </div>
+                    <div class="multiple-choice-text">Sed iaculis nisi hendrerit, viverra ante et, congue justo. Morbi
+                        in odio purus. Mauris sit amet volutpat nisi. Suspendisse sit amet aliquam sapien, non
+                        consectetur nulla. Nam sem nibh, imperdiet non feugiat malesuada, pellentesque et nulla. In
+                        interdum tincidunt tortor quis aliquet. Aenean eu felis eu nulla pharetra ultrices. Vestibulum
+                        sodales, turpis ut viverra congue, massa felis rutrum urna, vel porta mi sem quis felis. Vivamus
+                        ac magna nunc. Pellentesque nec quam ac augue elementum scelerisque ac placerat lacus. </div>
                     <div class="multiple-choice-buttons">
                         <div class="editor">
                             <textarea id="question6"></textarea>
@@ -126,17 +135,23 @@
                     </div>
                 </div>
 
-                <h3>Question 7</h3>
+                <h3 class="question-label">Question 7</h3> <span> (4pts)</span>
                 <div class="subbox">
-                    <div class="multiple-choice-text">Sed iaculis nisi hendrerit, viverra ante et, congue justo. Morbi in odio purus. Mauris sit amet volutpat nisi. Suspendisse sit amet aliquam sapien, non consectetur nulla. Nam sem nibh, imperdiet non feugiat malesuada, pellentesque et nulla. In interdum tincidunt tortor quis aliquet. Aenean eu felis eu nulla pharetra ultrices. Vestibulum sodales, turpis ut viverra congue, massa felis rutrum urna, vel porta mi sem quis felis. Vivamus ac magna nunc. Pellentesque nec quam ac augue elementum scelerisque ac placerat lacus.  </div>
+                    <div class="multiple-choice-text">Sed iaculis nisi hendrerit, viverra ante et, congue justo. Morbi
+                        in odio purus. Mauris sit amet volutpat nisi. Suspendisse sit amet aliquam sapien, non
+                        consectetur nulla. Nam sem nibh, imperdiet non feugiat malesuada, pellentesque et nulla. In
+                        interdum tincidunt tortor quis aliquet. Aenean eu felis eu nulla pharetra ultrices. Vestibulum
+                        sodales, turpis ut viverra congue, massa felis rutrum urna, vel porta mi sem quis felis. Vivamus
+                        ac magna nunc. Pellentesque nec quam ac augue elementum scelerisque ac placerat lacus. </div>
                     <div class="multiple-choice-buttons">
                         <div class="editor">
                             <textarea id="question7"></textarea>
                         </div>
                     </div>
                 </div>
-
-                <button class="primary-button submit" type="submit">Submit Quiz</button>
+                <form action="view_all_exams_student.html">
+                    <button class="primary-button submit" type="submit">Submit Quiz</button>
+                </form>
             </div>
 
 
