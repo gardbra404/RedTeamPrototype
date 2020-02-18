@@ -127,3 +127,8 @@ body {
     padding: 1em;
     background: rgb(235, 235, 235);
 }
+
+.header-chevron {
+    margin: 0 10px 0 10px;
+    color: rgb(73, 73, 73);
+}
