@@ -102,3 +102,8 @@ table {
 .thread-form-item{
     padding-bottom:10px
 }
+.cancel {
+    float:left;
+    margin: 30px;
+    background-color: #c46464 !important;
+}
