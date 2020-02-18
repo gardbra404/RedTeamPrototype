@@ -76,8 +76,25 @@ table {
 }
 
 .post-button {
-    border-radius: 5px;
+    border-radius: 3px;
     border: none;
-    background-color: #7998cc;
+    padding: 5px;
+    color:white;
+    background-color: #a5badf;
+    float:right;
+    margin:5px;
+    cursor: pointer;
+
+}
+
+.flag-button {
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
+    color:white;
+    background-color: #c46464;
+    float:right;
+    margin:5px;
+    cursor: pointer;
 
 }
