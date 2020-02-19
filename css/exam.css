@@ -66,3 +66,12 @@ table {
     color:rgb(0, 160, 21);
     padding-left: 5px;
 }
+
+.small-input {
+    width: 24;
+    margin-right: 5px;
+}
+
+.new-question {
+    margin: 30px;
+}
