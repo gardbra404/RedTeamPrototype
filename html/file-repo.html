@@ -1,6 +1,6 @@
 <html>
     <head>
-        
+        <link rel="stylesheet" href="../css/common.css" />
         <link rel="stylesheet" href="../css/file-repo.css" />
 		<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto|Source+Sans+Pro&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
@@ -10,22 +10,27 @@
     </head>
 	
 	<body>
+		<div id = 'top'>
+            <span id = "title" class="logo"><strong>One Connect</strong></span>
+            <span><button class = 'fa fa-gear settings-button' onclick="window.location.href='site-settings.html'"></button></span>
+            <span id='info'>Bradley Gardner<br/>Kettering University</span>
+        </div>
+		<div class="tableCard">
+			<a class="active" href="landing.html">Homepage</a><hr>
 		
-		<a class="active" href="landing.html">Homepage</a><hr>
-		
-		<div class = "toolbar">
-			<div class = "toolbarbutton">
-				<button type="button">Upload File</button>
-				<button type="button">Request Access</button>
-				<button type="button">Shared With Me</button>
+			<div class = "toolbar">
+				<div class = "toolbarbutton">
+					<button type="button">Upload File</button>
+					<button type="button">Request Access</button>
+					<button type="button">Shared With Me</button>
 				
-			</div>
-			<input type="text" placeholder="Search my files...">
+				</div>
+				<input type="text" placeholder="Search my files...">
 
-		</div>
+			</div>
+	</div>
 		
-		
-		
+	<div class = "tableCard">
 		<div class="table">
 			<table style="width:50%">
 		  <tr>
@@ -48,5 +53,6 @@
 		  </tr>
 			</table>
 		</div>
+	</div>
 	
 </html>

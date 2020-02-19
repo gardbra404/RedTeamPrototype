@@ -15,12 +15,10 @@ th, td{
 	background-color: solid black !important;
 }
 
-#tableborder{
-	border-color: #c0c0c0
-}
 
 body{
 	font-family: 'Roboto', sans-serif !important;
+	background-color: rgb(72, 71,82);;
 }
 
 .toolbarbutton{
@@ -30,4 +28,11 @@ body{
 .toolbar{
 	width: 25vw;
 	padding-bottom: 20px;
+}
+.tableCard {
+	width: 100vw;
+	background-color: rgb(207, 207, 207);
+	box-shadow: 5px 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
