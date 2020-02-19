@@ -68,6 +68,13 @@ li {
     font-family: 'Roboto', sans-serif;
     
 }
+/*.notifications-button {
+    color: white !important;
+    background-color: transparent !important;
+    border: none !important;
+    float: right;
+    padding-right: 25px !important;
+}*/
 .settings-button {
     color: white !important;
     background-color: transparent !important;
