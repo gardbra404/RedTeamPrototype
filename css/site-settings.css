@@ -1,15 +1,17 @@
 
 
-.column {
+.settingCard {
+    width: 225px;
+    height: 225px;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    margin-left: -50px;
     border-radius: 25px;
-    float: left;
-    width: 30vw;
-    margin: 0 30px 30px 30px;
-    height: 100vh;
     background-color: rgb(207, 207, 207);
     font-family: 'Roboto', sans-serif;
     box-shadow: 5px 10px;
-    display: block;
+    text-align: center;
     
 }
 
@@ -61,4 +63,7 @@ body {
     padding-left: 20px;
     float: left;
     font-size: 50px !important;
+}
+#darkButton {
+    background-color:rgb(72, 71,82);
 }
